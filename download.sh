@@ -12,3 +12,8 @@ echo
 echo Unzipping
 unzip -j UpdateSolrConfig.zip -d UpdateSolrConfig
 rm -f UpdateSolrConfig.zip
+
+echo Running installer
+chmod a+x ./UpdateSolrConfig/install.sh
+
+./UpdateSolrConfig/install.sh
