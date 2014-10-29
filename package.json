@@ -1,0 +1,14 @@
+{
+  "name": "SolrDeploy",
+  "version": "0.1.0",
+  "description": "Deplys solr config",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.10.0",
+    "multer": "^0.1.6",
+    "nodemon": "^1.2.1",
+    "shelljs": "^0.3.0",
+    "unzip": "^0.1.11"
+  },
+  "author": "Faisal Mansoor"
+}
