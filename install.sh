@@ -6,7 +6,7 @@ if [ ! -d /opt/node/ ]; then
     tar -xf node-v0.10.33-linux-x64.tar.gz
     mv node-v0.10.33-linux-x64 /opt/node/
 
-    export PATH=$PATH:/opt/node/bin
+    echo "export PATH=$PATH:/opt/node/bin" >> /etc/profile
 fi
 
 echo
