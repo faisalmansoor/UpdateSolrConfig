@@ -10,9 +10,12 @@ if [ ! -d /opt/node/ ]; then
     rm node-v0.10.33-linux-x64.tar.gz
 fi
 
+echo working directory
+pwd
+
 echo
 echo Installing daemon
-chmod +x ./UpdateSolrConfigCtl
+chmod a+x ./UpdateSolrConfigCtl
 rm /etc/init.d/UpdateSolrConfigCtl 2> /etc/null
 cp -f ./UpdateSolrConfigCtl /etc/init.d/
 
