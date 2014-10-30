@@ -72,7 +72,7 @@ function printUsage(req, res) {
 };
 
 var server = app.listen(3333, function () {
-  var host = server.address().address
-  var port = server.address().port
-  console.log('UpdateSolrConfig listening at http://%s:%s', host, port)
+  var host = server.address().address;
+  var port = server.address().port;
+  console.log('UpdateSolrConfig listening at http://%s:%s', host, port);
 });
