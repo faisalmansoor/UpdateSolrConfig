@@ -12,9 +12,13 @@ fi
 
 echo
 echo Installing daemon
-chmod +x ./UpdateSolrConfig
+chmod +x ./UpdateSolrConfigCtl
 rm /etc/init.d/UpdateSolrConfigCtl 2> /etc/null
 cp -f ./UpdateSolrConfigCtl /etc/init.d/
+
+echo
+echo Installing npm modules
+npm install
 
 echo
 echo Starting node server
