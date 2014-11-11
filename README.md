@@ -10,7 +10,7 @@ cd /opt/
 wget https://raw.githubusercontent.com/faisalmansoor/UpdateSolrConfig/master/download.sh
 ./download.sh
 ```
-This script will download this master branch was this repo and run `/opt/UpdateSolrConfig` and run `install.sh` file. 
+This script will download the master branch from this repo into `/opt/UpdateSolrConfig` and run `install.sh` file. 
 
 `install.sh` will 
 
